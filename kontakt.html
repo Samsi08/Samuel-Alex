@@ -19,22 +19,31 @@
         </nav>
     </header>
 
-    <section id="contact">
+    <table>
+    <section class="contact_headline">
         <h2>Kontakt</h2>
-        <form action="/submit_contact" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+        <form action="/submit_contact" method="post" class="">
+            <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" name="name" required><br></td>
+            </tr>
             <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email" required><br></td>
+            </tr>
             <br>
-            <label for="message">Nachricht:</label>
-            <textarea id="message" name="message" required></textarea>
+            <tr>
+            <td><label for="message">Nachricht:</label></td>
+            <td><textarea id="message" name="message" required></textarea><br></td>
+            </tr>
             <br>
-            <button type="submit"><a href="kontakt_ausgabe.html">Absenden</button>
+            <tr>
+            <td><button type="submit"><a href="kontakt_ausgabe.html">Absenden</button></td>
+            </tr>
         </form>
     </section>
-
+    </table>
     
 <link rel="stylesheet" href="style.css" class="css">
 </body>
