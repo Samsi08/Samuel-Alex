@@ -91,7 +91,7 @@ footer {
 /* Preis */
 .product-price {
     font-size: 1.2em; /* Schriftgröße */
-    color: #e67e22; /* Preisfarbe */
+    color: black; /* Preisfarbe */
     margin: 10px 0; /* Abstand oben und unten */
 }
 
